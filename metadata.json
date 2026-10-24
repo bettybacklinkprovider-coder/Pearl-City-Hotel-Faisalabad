@@ -1,0 +1,6 @@
+{
+  "name": "Pearl City Hotel Faisalabad",
+  "description": "Pearl City Hotel & Suites on Sargodha Rd, Canal Block Shadman, Faisalabad. Premium luxury hotel accommodations, special offers, customer reviews, and direct WhatsApp booking at 03216561717.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
