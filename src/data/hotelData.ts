@@ -1,3 +1,11 @@
+import pearlMallHeroImg from '../assets/images/pearl_mall_hero_1792757694063.jpg';
+import pearlMallAtriumImg from '../assets/images/pearl_mall_atrium_1792757694593.jpg';
+import mallDesignerBoutiqueImg from '../assets/images/mall_designer_boutique_1792757713566.jpg';
+import mallFoodCourtImg from '../assets/images/mall_food_court_1792757714189.jpg';
+import mallSupermarketImg from '../assets/images/mall_supermarket_1792757730720.jpg';
+import mallElectronicsStoreImg from '../assets/images/mall_electronics_store_1792757731278.jpg';
+import lyallpurGalleriaImg from '../assets/images/faisalabad_lyallpur_galleria_mall_1792756672862.jpg';
+
 export interface Room {
   id: string;
   name: string;
@@ -80,18 +88,18 @@ export const HOTEL_INFO = {
 };
 
 export const IMAGES = {
-  hero: "/src/assets/images/pearl_mall_hero_1792757694063.jpg",
-  atrium: "/src/assets/images/pearl_mall_atrium_1792757694593.jpg",
-  deluxe: "/src/assets/images/mall_designer_boutique_1792757713566.jpg",
-  presidential: "/src/assets/images/pearl_mall_atrium_1792757694593.jpg",
-  dining: "/src/assets/images/mall_food_court_1792757714189.jpg",
-  family: "/src/assets/images/mall_supermarket_1792757730720.jpg",
-  electronics: "/src/assets/images/mall_electronics_store_1792757731278.jpg",
-  mallAtrium: "/src/assets/images/pearl_mall_atrium_1792757694593.jpg",
-  mallExterior: "/src/assets/images/pearl_mall_hero_1792757694063.jpg",
-  mallBoutique: "/src/assets/images/mall_designer_boutique_1792757713566.jpg",
-  supermarket: "/src/assets/images/mall_supermarket_1792757730720.jpg",
-  foodCourt: "/src/assets/images/mall_food_court_1792757714189.jpg",
+  hero: pearlMallHeroImg,
+  atrium: pearlMallAtriumImg,
+  deluxe: mallDesignerBoutiqueImg,
+  presidential: pearlMallAtriumImg,
+  dining: mallFoodCourtImg,
+  family: mallSupermarketImg,
+  electronics: mallElectronicsStoreImg,
+  mallAtrium: pearlMallAtriumImg,
+  mallExterior: pearlMallHeroImg,
+  mallBoutique: mallDesignerBoutiqueImg,
+  supermarket: mallSupermarketImg,
+  foodCourt: mallFoodCourtImg,
 };
 
 export interface ShoppingMall {
@@ -120,7 +128,7 @@ export const FAISALABAD_MALLS: ShoppingMall[] = [
     tagline: "Faisalabad's luxury retail & lifestyle destination on Canal Road",
     distance: "10-12 Mins Drive",
     highlights: ["Designer Lawn & Couture Boutiques", "Hyperstar / Carrefour Supermarket", "Food Court & International Cafes", "Multiplex Cinema"],
-    image: "/src/assets/images/faisalabad_lyallpur_galleria_mall_1792756672862.jpg",
+    image: lyallpurGalleriaImg,
     description: "The premier modern shopping center of Faisalabad featuring multi-level glass architecture, top Pakistani fashion houses (Sapphire, Khaadi, Sana Safinaz), luxury watch stores, and family entertainment."
   },
   {
